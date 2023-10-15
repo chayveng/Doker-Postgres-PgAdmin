@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: h48EzLgaSmO6FXpS
+      POSTGRES_DB: example
+    ports:
+      - "5432:5432"
+    volumes:
+      - C:\Users\Chayv\WorkSpace\DataBase\postgres_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@domain.com
+      PGADMIN_DEFAULT_PASSWORD: Fp4KptNG5W5G2q69
+    ports:
+      - "5050:80"
+    volumes:
+      -  C:\Users\Chayv\WorkSpace\DataBase\pgadmin_data:/var/lib/pgadmin
+
+volumes:
+  postgres_data:
+  pgadmin_data: 
