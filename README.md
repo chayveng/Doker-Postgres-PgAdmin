@@ -3,8 +3,8 @@
 ## Requirementd
 
 ## Setup
-    - map volume  ~/postgres_data
-    - map volume  ~/pgadmin_data
+ - map volume  ~/postgres_data
+ -  map volume  ~/pgadmin_data
 
 ## Run Sclipt
-    - ```docker-compose -f <่FILE_NAME> up -d```
+ - ```docker-compose -f <่FILE_NAME> up -d```
