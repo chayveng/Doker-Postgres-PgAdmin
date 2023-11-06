@@ -4,7 +4,7 @@
 
 ## Setup
  - map volume  ~/postgres_data
- -  map volume  ~/pgadmin_data
+ - map volume  ~/pgadmin_data
 
 ## Run Sclipt
  - ```docker-compose -f .\docker-compose-pddb-pgadmin.yml up -d```
