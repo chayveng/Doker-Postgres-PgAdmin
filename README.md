@@ -8,3 +8,5 @@
 
 ## Run Sclipt
  - ```docker-compose -f .\docker-compose-pddb-pgadmin.yml up -d```
+
+## Edit From MacOs
